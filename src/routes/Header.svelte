@@ -81,7 +81,7 @@
 		list-style: none;
     padding: none;
     margin: 0px;
-    margin-left: -30px;
+    margin-left: -45px;
 	}
 
 	li {
@@ -133,6 +133,41 @@
 }
 .link a:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 300px) {
+  .link a {
+    font-size: 17.5px;
+  }
+  .active-link a {
+    font-size: 17.5px;
+  }
+  .home a {
+    font-size: 20px;
+  }
+  .active-home a {
+    font-size: 20px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+  .active-home {
+    margin-right: 40px;
+  }
+
+  .active-link a {
+    padding-top: 19.5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .link a {
+    padding: 24px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 @media screen and (min-width: 400px) {
