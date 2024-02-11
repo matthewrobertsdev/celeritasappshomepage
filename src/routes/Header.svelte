@@ -43,8 +43,8 @@
   }
 
   .active-home a {
-    padding-top: 1.5px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -128,13 +128,6 @@
   }
 }
 
-.home a:hover {
-  text-decoration: underline;
-}
-.link a:hover {
-  text-decoration: underline;
-}
-
 @media screen and (min-width: 300px) {
   .link a {
     font-size: 17.5px;
@@ -157,14 +150,14 @@
   }
 
   .active-link a {
-    padding-top: 19.5px;
-    padding-bottom: 20px;
+    padding-top: 24.5px;
+    padding-bottom: 22px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .link a {
-    padding: 24px;
-    padding-bottom: 24px;
+    padding-top: 28.5px;
+    padding-bottom: 26.5px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -236,6 +229,15 @@
   .active-home {
     margin-right: 80px;
   }
+}
+
+@media (hover: hover) {
+  .home a:hover {
+  text-decoration: underline;
+}
+.link a:hover {
+  text-decoration: underline;
+}
 }
 
 </style>
