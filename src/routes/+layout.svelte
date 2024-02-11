@@ -20,6 +20,7 @@
     margin: 0px;
     padding: 0px;
     background-color: rgb(255, 243, 114);/*rgb(255, 243, 114);*//*#4DA0FF;*/
+    transition: background-color 0.2s linear;
   }
 	.app {
 		display: flex;
@@ -41,7 +42,8 @@
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
-    background: white; /*linear-gradient(rgb(255, 243, 114),rgb(255, 227, 114));white;rgb(255, 243, 114);#9ECBFF;*/
+    background-color: white; /*linear-gradient(rgb(255, 243, 114),rgb(255, 227, 114));white;rgb(255, 243, 114);#9ECBFF;*/
+    transition: background-color 0.2s linear;
 	}
 
 	footer {

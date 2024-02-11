@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 	import celeritasAppsLogo from '$lib/images/celeritas-apps.png';
-	import github from '$lib/images/github.svg';
 </script>
 
 <header>
@@ -96,6 +95,7 @@
     border-bottom-color: #001eff;
     border-bottom-style: solid;
     border-bottom-width: 4px;
+    transition: border-color 0.2s linear;
 	}
 
 	nav a {
@@ -103,7 +103,6 @@
 		height: 100%;
 		align-items: center;
 		text-decoration: none;
-		transition: color 0.2s linear;
     font-size: 20px;
     font-weight: bold;
 	}
@@ -116,6 +115,7 @@
     border-color: rgb(255, 243, 114);;
     border-width: 3px;
     border-style: solid;
+    transition: border-color 0.2s linear;
   }
 
   @media (prefers-color-scheme: dark) {
@@ -219,10 +219,10 @@
 
 @media screen and (min-width: 600px) {
   .link a {
-    font-size: 22px;
+    font-size: 20px;
   }
   .active-link a {
-    font-size: 22px;
+    font-size: 20px;
   }
   .home a {
     font-size: 25px;
