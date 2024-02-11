@@ -19,6 +19,7 @@
   :global(body) {
     margin: 0px;
     padding: 0px;
+    background-color: rgb(255, 243, 114);/*rgb(255, 243, 114);*//*#4DA0FF;*/
   }
 	.app {
 		display: flex;
@@ -40,6 +41,7 @@
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
+    background: white; /*linear-gradient(rgb(255, 243, 114),rgb(255, 227, 114));white;rgb(255, 243, 114);#9ECBFF;*/
 	}
 
 	footer {
@@ -49,6 +51,7 @@
 		align-content: center;
 		padding: 12px;
     font-weight: 600;
+    text-align: center;
 	}
 
 	@media (min-width: 480px) {
@@ -62,10 +65,11 @@
     color: white;
   }
   :global(body) {
-    background-color: #0018d2;
+    background-color: #001297;/*#0018d2;*/
   }
   main {
-    background-color: #000c68;
+    background: none;
+    background-color: rgb(22, 22, 22)/*#000c68;*/
   }
 }
 </style>

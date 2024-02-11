@@ -1,129 +1,206 @@
 <script>
 	import { page } from '$app/stores';
-	import logo from '$lib/images/svelte-logo.svg';
+	import celeritasAppsLogo from '$lib/images/celeritas-apps.png';
 	import github from '$lib/images/github.svg';
 </script>
 
 <header>
-	<div class="corner">
-		<a href="https://kit.svelte.dev">
-			<img src={logo} alt="SvelteKit" />
-		</a>
-	</div>
 
 	<nav>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
-		</svg>
 		<ul>
-			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
-				<a href="/">Home</a>
+			<li aria-current={$page.url.pathname === '/' ? 'page' : undefined} class={$page.url.pathname === '/' ? 'active-home' : 'home'}>
+				<a href="/"><img src={celeritasAppsLogo}> Celeritas Apps</a>
 			</li>
-			<li aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about">About</a>
+			<li aria-current={$page.url.pathname === '/apps' ? 'page' : undefined} class={$page.url.pathname.startsWith('/apps') ? 'active-link' : 'link'}>
+				<a href="/apps">Apps</a>
 			</li>
-			<li aria-current={$page.url.pathname.startsWith('/sverdle') ? 'page' : undefined}>
-				<a href="/sverdle">Sverdle</a>
+			<li aria-current={$page.url.pathname.startsWith('/contact') ? 'page' : undefined} class={$page.url.pathname.startsWith('/contact') ? 'active-link' : 'link'}>
+				<a href="/contact">Contact</a>
+			</li>
+      <li aria-current={$page.url.pathname.startsWith('/privacy') ? 'page' : undefined} class={$page.url.pathname.startsWith('/privacy') ? 'active-link' : 'link'}>
+				<a href="/privacy">Privacy</a>
+			</li>
+      <li aria-current={$page.url.pathname.startsWith('/faq') ? 'page' : undefined} class={$page.url.pathname.startsWith('/faq') ? 'active-link' : 'link'}>
+				<a href="/faq">FAQ</a>
 			</li>
 		</ul>
-		<svg viewBox="0 0 2 3" aria-hidden="true">
-			<path d="M0,0 L0,3 C0.5,3 0.5,3 1,2 L2,0 Z" />
-		</svg>
 	</nav>
 
-	<div class="corner">
-		<a href="https://github.com/sveltejs/kit">
-			<img src={github} alt="GitHub" />
-		</a>
-	</div>
 </header>
 
 <style>
 	header {
 		display: flex;
-		justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
 	}
 
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
+  .home a {
+    padding: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-	.corner a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-		height: 100%;
-	}
+  .active-home a {
+    padding-top: 1.5px;
+    padding-bottom: 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
-	.corner img {
-		width: 2em;
-		height: 2em;
-		object-fit: contain;
-	}
+
+  .active-link a {
+    padding-top: 17.5px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .link a {
+    padding: 21px;
+    padding-bottom: 21px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
 
 	nav {
 		display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 		justify-content: center;
-		--background: rgba(255, 255, 255, 0.7);
-	}
-
-	svg {
-		width: 2em;
-		height: 3em;
-		display: block;
-	}
-
-	path {
-		fill: var(--background);
 	}
 
 	ul {
 		position: relative;
-		padding: 0;
-		margin: 0;
-		height: 3em;
 		display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 		list-style: none;
-		background: var(--background);
-		background-size: contain;
+    padding: none;
+    margin: 0px;
+    margin-left: -30px;
 	}
 
 	li {
+    flex-wrap: wrap;
 		position: relative;
-		height: 100%;
 	}
 
-	li[aria-current='page']::before {
-		--size: 6px;
-		content: '';
-		width: 0;
-		height: 0;
-		position: absolute;
-		top: 0;
-		left: calc(50% - var(--size));
-		border: var(--size) solid transparent;
-		border-top: var(--size) solid var(--color-theme-1);
+	li[aria-current='page'] {
+		padding-top: 4px;
+    border-bottom-color: #001eff;
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
 	}
 
 	nav a {
 		display: flex;
 		height: 100%;
 		align-items: center;
-		padding: 0 0.5rem;
-		color: var(--color-text);
-		font-weight: 700;
-		font-size: 0.8rem;
-		text-transform: uppercase;
-		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
+    font-size: 20px;
+    font-weight: bold;
 	}
 
-	a:hover {
-		color: var(--color-theme-1);
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 10px;
+    border-color: rgb(255, 243, 114);;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  @media (prefers-color-scheme: dark) {
+  a {
+    color: #ffdf00;
+  }
+  li[aria-current='page'] {
+    border-bottom-color: white;
 	}
+  img {
+    border-color: white;
+  }
+}
+
+.home a:hover {
+  text-decoration: underline;
+}
+.link a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 400px) {
+  .link a {
+    font-size: 20px;
+  }
+  .active-link a {
+    font-size: 20px;
+  }
+  .home a {
+    font-size: 20px;
+  }
+  .active-home a {
+    font-size: 20px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+  .active-home {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .link a {
+    font-size: 22px;
+  }
+  .active-link a {
+    font-size: 22px;
+  }
+  .home a {
+    font-size: 25px;
+  }
+  .active-home a {
+    font-size: 25px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+  .active-home {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .link a {
+    font-size: 23px;
+  }
+  .active-link a {
+    font-size: 23px;
+  }
+
+  .home a {
+    font-size: 30px;
+  }
+  .active-home a {
+    font-size: 30px;
+  }
+
+  .home {
+    margin-right: 80px;
+  }
+  .active-home {
+    margin-right: 80px;
+  }
+}
+
 </style>
