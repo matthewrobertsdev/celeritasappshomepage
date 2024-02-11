@@ -38,27 +38,29 @@
 
   .home a {
     padding: 0px;
+    padding-top: 5px;
+    padding-bottom: 7px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .active-home a {
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 3px;
+    padding-bottom: 6px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
 
   .active-link a {
-    padding-top: 17.5px;
+    padding-top: 17px;
     padding-bottom: 18px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .link a {
-    padding: 21px;
-    padding-bottom: 21px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -150,14 +152,44 @@
   }
 
   .active-link a {
-    padding-top: 24.5px;
-    padding-bottom: 22px;
+    padding-top: 21.5px;
+    padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
   }
   .link a {
-    padding-top: 28.5px;
-    padding-bottom: 26.5px;
+    padding-top: 25px;
+    padding-bottom: 23.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .active-link a {
+    padding-top: 20.5px;
+    padding-bottom: 20.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .link a {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home a {
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .active-home a {
+    padding-top: 2px;
+    padding-bottom: 5px;
     padding-left: 15px;
     padding-right: 15px;
   }
