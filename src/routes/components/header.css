@@ -1,0 +1,283 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home a {
+  padding: 0px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+
+.active-home a {
+  padding-top: 3px;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+
+
+.active-link a {
+  padding-top: 17px;
+  padding-bottom: 18px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+
+.link a {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: none;
+  margin: 0px;
+  margin-left: -45px;
+}
+
+li {
+  flex-wrap: wrap;
+  position: relative;
+}
+
+li[aria-current='page'] {
+  padding-top: 4px;
+  border-bottom-color: #001eff;
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-radius: 3px;
+  transition: border-color 0.2s linear;
+}
+
+ul a {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border-color: rgb(255, 243, 114);
+  ;
+  border-width: 3px;
+  border-style: solid;
+  transition: border-color 0.2s linear;
+}
+
+@media (prefers-color-scheme: dark) {
+  .home a {
+    color: #ffdf00;
+  }
+
+  .active-home a {
+    color: #ffdf00;
+  }
+
+  .link a {
+    color: #ffdf00;
+  }
+
+  .active-link a {
+    color: #ffdf00;
+  }
+
+  li[aria-current='page'] {
+    border-bottom-color: white;
+  }
+
+  img {
+    border-color: white;
+  }
+
+}
+
+@media screen and (min-width: 300px) {
+  .link a {
+    font-size: 17.5px;
+  }
+
+  .active-link a {
+    font-size: 17.5px;
+  }
+
+  .home a {
+    font-size: 20px;
+  }
+
+  .active-home a {
+    font-size: 20px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+
+  .active-home {
+    margin-right: 40px;
+  }
+
+  .active-link a {
+    padding-top: 21.5px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .link a {
+    padding-top: 25px;
+    padding-bottom: 23.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .active-link a {
+    padding-top: 20.5px;
+    padding-bottom: 20.5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .link a {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .home a {
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .active-home a {
+    padding-top: 2px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .link a {
+    font-size: 20px;
+  }
+
+  .active-link a {
+    font-size: 20px;
+  }
+
+  .home a {
+    font-size: 20px;
+  }
+
+  .active-home a {
+    font-size: 20px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+
+  .active-home {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .link a {
+    font-size: 20px;
+  }
+
+  .active-link a {
+    font-size: 20px;
+  }
+
+  .home a {
+    font-size: 25px;
+  }
+
+  .active-home a {
+    font-size: 25px;
+  }
+
+  .home {
+    margin-right: 40px;
+  }
+
+  .active-home {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+
+  .link a {
+    font-size: 23px;
+  }
+
+  .active-link a {
+    font-size: 23px;
+  }
+
+  .home a {
+    font-size: 30px;
+  }
+
+  .active-home a {
+    font-size: 30px;
+  }
+
+  .home {
+    margin-right: 80px;
+  }
+
+  .active-home {
+    margin-right: 80px;
+  }
+}
+
+@media (hover: hover) {
+  .home a:hover {
+    text-decoration: underline;
+  }
+
+  .link a:hover {
+    text-decoration: underline;
+  }
+}

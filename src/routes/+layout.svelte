@@ -1,5 +1,5 @@
 <script>
-	import Header from './Header.svelte';
+	import Header from './components/Header.svelte';
   import './styles.css'
 </script>
 
@@ -7,7 +7,9 @@
 	<Header />
 
 	<main>
+    <div class="main-content">
 		<slot />
+  </div>
 	</main>
 
 	<footer>
@@ -16,6 +18,12 @@
 </div>
 
 <style>
+  .main-content {
+    flex: 1;
+    max-width: 1000px;
+    padding: 20px;
+  }
+
   :global(body) {
     margin: 0px;
     padding: 0px;
@@ -37,8 +45,8 @@
 	main {
 		flex: 1;
 		display: flex;
-		flex-direction: column;
-		padding: 1rem;
+		flex-direction: row;
+    justify-content: center;
 		width: 100%;
 		margin: 0 auto;
 		box-sizing: border-box;
