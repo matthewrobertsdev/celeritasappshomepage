@@ -23,7 +23,7 @@ header {
 }
 
 
-.active-link a {
+.active-main-link a {
   padding-top: 17px;
   padding-bottom: 18px;
   padding-left: 15px;
@@ -31,7 +31,7 @@ header {
   color: black;
 }
 
-.link a {
+.main-link a {
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 15px;
@@ -83,7 +83,7 @@ ul a {
   font-weight: bold;
 }
 
-img {
+.home-img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
@@ -104,11 +104,11 @@ img {
     color: #ffdf00;
   }
 
-  .link a {
+  .main-link a {
     color: #ffdf00;
   }
 
-  .active-link a {
+  .active-main-link a {
     color: #ffdf00;
   }
 
@@ -116,18 +116,18 @@ img {
     border-bottom-color: white;
   }
 
-  img {
+  .home-img {
     border-color: white;
   }
 
 }
 
 @media screen and (min-width: 300px) {
-  .link a {
+  .main-link a {
     font-size: 17.5px;
   }
 
-  .active-link a {
+  .active-main-link a {
     font-size: 17.5px;
   }
 
@@ -147,14 +147,14 @@ img {
     margin-right: 40px;
   }
 
-  .active-link a {
+  .active-main-link a {
     padding-top: 21.5px;
     padding-bottom: 20px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .link a {
+  .main-link a {
     padding-top: 25px;
     padding-bottom: 23.5px;
     padding-left: 15px;
@@ -163,14 +163,14 @@ img {
 }
 
 @media screen and (max-width: 400px) {
-  .active-link a {
+  .active-main-link a {
     padding-top: 20.5px;
     padding-bottom: 20.5px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .link a {
+  .main-link a {
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 15px;
@@ -194,11 +194,11 @@ img {
 }
 
 @media screen and (min-width: 400px) {
-  .link a {
+  .main-link a {
     font-size: 20px;
   }
 
-  .active-link a {
+  .active-main-link a {
     font-size: 20px;
   }
 
@@ -220,11 +220,11 @@ img {
 }
 
 @media screen and (min-width: 600px) {
-  .link a {
+  .main-link a {
     font-size: 20px;
   }
 
-  .active-link a {
+  .active-main-link a {
     font-size: 20px;
   }
 
@@ -247,11 +247,11 @@ img {
 
 @media screen and (min-width: 800px) {
 
-  .link a {
+  .main-link a {
     font-size: 23px;
   }
 
-  .active-link a {
+  .active-main-link a {
     font-size: 23px;
   }
 
@@ -277,7 +277,7 @@ img {
     text-decoration: underline;
   }
 
-  .link a:hover {
+  .main-link a:hover {
     text-decoration: underline;
   }
 }
