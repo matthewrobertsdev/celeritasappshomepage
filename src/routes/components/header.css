@@ -28,7 +28,7 @@ header {
   padding-bottom: 18px;
   padding-left: 15px;
   padding-right: 15px;
-  color: black;
+  color: #001eff;
 }
 
 .main-link a {
@@ -36,7 +36,7 @@ header {
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-  color: black;
+  color: #001eff;
 }
 
 
@@ -105,15 +105,15 @@ ul a {
   }
 
   .main-link a {
-    color: #ffdf00;
+    color: rgb(61, 229, 255);/*#ffdf00;*/
   }
 
   .active-main-link a {
-    color: #ffdf00;
+    color: rgb(61, 229, 255);/*#ffdf00;*/
   }
 
   li[aria-current='page'] {
-    border-bottom-color: white;
+    border-bottom-color: rgb(61, 229, 255);/*white;*/
   }
 
   .home-img {
