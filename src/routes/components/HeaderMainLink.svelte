@@ -5,6 +5,6 @@
   import './header.css'
 </script>
 
-<li aria-current={$page.url.pathname === path ? 'page' : undefined} class={$page.url.pathname.startsWith(path) ? 'active-main-link' : 'main-link'}>
+<li aria-current={$page.url.pathname === path ? 'page' : undefined} class={$page.url.pathname === path ? 'active-main-link' : 'main-link'}>
   <a href={path}>{text}</a>
 </li>

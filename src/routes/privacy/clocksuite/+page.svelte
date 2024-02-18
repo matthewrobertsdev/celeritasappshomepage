@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>Celeritas Apps | Clock Suite Privacy</title>
-	<meta name="description" content="Clock Suite prrivacy policy" />
+	<meta name="description" content="Clock Suite privacy policy" />
 </svelte:head>
 
 <AppHeading imgSrc={clockSuiteAppIcon}>Clock Suite Privacy Policy</AppHeading>

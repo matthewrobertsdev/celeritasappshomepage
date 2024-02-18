@@ -5,7 +5,7 @@
 	import '../styles.css';
 </script>
 
-<h2 class="left-h1 app-heading" aria-label={ariaLabel}>
+<h1 class="left-h1 app-heading" aria-label={ariaLabel}>
 	<img src={imgSrc} alt={appName + " App Icon"} class="app-img" />
 	<slot/>
-</h2>
+</h1>

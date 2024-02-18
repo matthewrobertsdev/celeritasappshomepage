@@ -10,7 +10,7 @@
 
 <h1 class="left-h1">Apps</h1>
 {#each apps as app}
-	<AppLink imgSrc={app.appIcon} appName={app.name} ariaLabel={app.name}>{app.name}</AppLink>
+	<AppLink imgSrc={app.appIcon} appName={app.name} pathComponent={`/apps/${app.path}`} ariaLabel={app.name}>{app.name}</AppLink>
   <br>
 {/each}
 <br />

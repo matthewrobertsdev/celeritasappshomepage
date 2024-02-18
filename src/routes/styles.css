@@ -9,6 +9,21 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+  max-width: 100%;
+}
+
+.mac-image {
+  border-radius: 10px;
+}
+
+.feature-list {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  align-items: flex-start;
+}
+
 .app-img {
   width: 100px;
   height: 100px;
@@ -64,7 +79,7 @@ body {
 h1, h2, h3 {
   color: #ffdf00;
 }
-p {
+p, .feature-list li {
   color: white;
 }
 .link {
@@ -82,7 +97,7 @@ p {
 .left-h2 {
   font-size: 25px;
 }
-.body-p {
+.body-p,  .feature-list li {
   font-size: 20px;
   line-height: 30px;
 }
@@ -101,6 +116,9 @@ p {
   font-size: 20px;
   margin-left: 40px;
 }
+.mac-image {
+  border-radius: 3px;
+}
 }
 @media only screen and (min-width: 400px) {
 .left-h1 {
@@ -110,7 +128,7 @@ p {
 .left-h2 {
   font-size: 25px;
 }
-.body-p {
+.body-p,  .feature-list li {
   font-size: 22.5px;
   line-height: 30px;
 }
@@ -129,6 +147,9 @@ p {
   font-size: 25px;
   margin-left: 70px;
 }
+.mac-image {
+  border-radius: 4px;
+}
 }
 @media only screen and (min-width: 600px) {
 .left-h1 {
@@ -138,7 +159,7 @@ p {
 .left-h2 {
   font-size: 25px;
 }
-.body-p {
+.body-p, .feature-list li {
   font-size: 22.5px;
   line-height: 30px;
 }
@@ -157,6 +178,9 @@ p {
   font-size: 30px;
   margin-left: 90px;
 }
+.mac-image {
+  border-radius: 6px;
+}
 }
 
 @media only screen and (min-width: 800px) {
@@ -167,7 +191,7 @@ p {
 .left-h2 {
   font-size: 30px;
 }
-.body-p {
+.body-p, .feature-list li {
   font-size: 25px;
   line-height: 35px;
 }
@@ -184,6 +208,9 @@ p {
 }
 .app-link {
   font-size: 30px;
+}
+.mac-image {
+  border-radius: 10px;
 }
 }
 @media (hover: hover) {
