@@ -10,7 +10,7 @@
 
 <h1 class="left-h1">Privacy Policies</h1>
 {#each apps as app}
-	<AppLink imgSrc={app.appIcon} appName={app.name} ariaLabel={`${app.name} Privacy Policy`}>{`${app.name} Privacy Policy`}</AppLink>
+	<AppLink imgSrc={app.appIcon} appName={app.name} pathComponent={"/privacy/" + app.path} ariaLabel={`${app.name} Privacy Policy`}>{`${app.name} Privacy Policy`}</AppLink>
   <br>
 {/each}
 <br />
