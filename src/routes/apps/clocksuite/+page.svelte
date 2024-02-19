@@ -9,7 +9,7 @@
 	<meta name="description" content="Clock Suite app homepage" />
 </svelte:head>
 
-<AppHeading imgSrc={clockSuiteAppIcon}>Clock Suite</AppHeading>
+<AppHeading imgSrc={clockSuiteAppIcon} ariaLabel="Clock Suite">Clock Suite</AppHeading>
 <h2 class="left-h2">Colorful clock suite.  Resizable clock, alarms, timers, a stopwatch, and a dock clock. Simple and elegant, with each functionality in its own window.</h2>
 <p class="body-p">A great clock suite—a resizable digital or analog clock, alarms, timers, a stopwatch, and a dock clock. All in brilliant color, that works in dark mode and light mode with many color choices, and with a night mode choice for while in dark mode. Choose from songs you own or from built-in alerts for sounds when your alarms and timers go off. Clock and Dock Clock can be digital or analog.</p>
 <img src={clockSuite} class="mac-image" alt="Clock Suite with digital clock window, timer window, alarm window and stopwatch window with dark-mode blue background for windows.">

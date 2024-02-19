@@ -8,7 +8,7 @@
 	<meta name="description" content="Clock Suite privacy policy" />
 </svelte:head>
 
-<AppHeading imgSrc={clockSuiteAppIcon}>Clock Suite Privacy Policy</AppHeading>
+<AppHeading imgSrc={clockSuiteAppIcon} ariaLabel="Clock Suite Privacy Policy">Clock Suite Privacy Policy</AppHeading>
 <p class="body-p">Clock Suite does not collect data from its users, and does not connect to the internet. Any changes to the privacy policy of Clock Suite will be reflected here.</p>
 <br />
 <br />

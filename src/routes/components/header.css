@@ -105,15 +105,15 @@ ul a {
   }
 
   .main-link a {
-    color: rgb(61, 229, 255);/*#ffdf00;*/
+    color: rgb(61, 229, 255)/*rgb(61, 229, 255);*//*#ffdf00;*/
   }
 
   .active-main-link a {
-    color: rgb(61, 229, 255);/*#ffdf00;*/
+    color: rgb(61, 229, 255)/*rgb(61, 229, 255);*//*#ffdf00;*/
   }
 
   li[aria-current='page'] {
-    border-bottom-color: rgb(61, 229, 255);/*white;*/
+    border-bottom-color: rgb(61, 229, 255)/*rgb(61, 229, 255);*//*white;*/
   }
 
   .home-img {

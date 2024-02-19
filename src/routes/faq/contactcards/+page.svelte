@@ -8,7 +8,7 @@
 	<meta name="description" content="Contact Cards FAQ" />
 </svelte:head>
 
-<AppHeading imgSrc={contactCardsAppIcon}>Contact Cards FAQ</AppHeading>
+<AppHeading imgSrc={contactCardsAppIcon} ariaLabel="Contact Cards FAQ">Contact Cards FAQ</AppHeading>
 <h2 class="left-h2">How is a contact shared from Contact Cards?</h2>
 <p class="body-p">The contact is shared either virtually or by QR code. Either way, the information is stored in the vCard format, which works across device types. Sharing with devices outside of those made by Apple should not be a problem. Please note that QR codes can only hold so much data so an extremely long contact may be unsharable by QR code. Also, some smart phones may require the user to download a bar code scanner to scan a QR code.</p>
 <h2 class="left-h2"> How do I make sure my data is synced with iCloud?</h2>

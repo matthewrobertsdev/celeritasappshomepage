@@ -8,7 +8,7 @@
 	<meta name="description" content="Spiffy Clock FAQ" />
 </svelte:head>
 
-<AppHeading imgSrc={spiffyClockAppIcon}>Spiffy Clock FAQ</AppHeading>
+<AppHeading imgSrc={spiffyClockAppIcon} ariaLabel="Spiffy Clock FAQ">Spiffy Clock FAQ</AppHeading>
 <h2 class="left-h2">Why is night mode not making the text dark?</h2>
 <p class="body-p">For night mode to have effect, you must be using dark mode. If it is not darkening the text, you must not be using system-wide dark mode at that time.</p>
 <h2 class="left-h2">Why is the text dark in light mode?</h2>
