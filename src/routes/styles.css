@@ -192,6 +192,10 @@ hr {
 .mac-image {
   border-radius: 3px;
 }
+.icon-link img{
+  height: 80px;
+  width: 80px;
+}
 }
 @media only screen and (min-width: 400px) {
 .left-h1 {
@@ -222,6 +226,11 @@ hr {
 }
 .mac-image {
   border-radius: 4px;
+}
+
+.icon-link img{
+  height: 100px;
+  width: 100px;
 }
 }
 @media only screen and (min-width: 600px) {
@@ -254,6 +263,11 @@ hr {
 .mac-image {
   border-radius: 6px;
 }
+
+.icon-link img{
+  height: 125px;
+  width: 125px;
+}
 }
 
 @media only screen and (min-width: 800px) {
@@ -285,6 +299,12 @@ hr {
 .mac-image {
   border-radius: 10px;
 }
+
+.icon-link img{
+  height: 150px;
+  width: 150px;
+}
+
 }
 @media (hover: hover) {
   .indented:hover {
