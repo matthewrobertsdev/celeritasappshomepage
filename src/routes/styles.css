@@ -196,6 +196,9 @@ hr {
   height: 80px;
   width: 80px;
 }
+.big-link {
+  font-size: 40px;
+}
 }
 @media only screen and (min-width: 400px) {
 .left-h1 {
@@ -231,6 +234,9 @@ hr {
 .icon-link img{
   height: 100px;
   width: 100px;
+}
+.big-link {
+  font-size: 45px;
 }
 }
 @media only screen and (min-width: 600px) {
@@ -268,6 +274,10 @@ hr {
   height: 125px;
   width: 125px;
 }
+
+.big-link {
+  font-size: 50px;
+}
 }
 
 @media only screen and (min-width: 800px) {
@@ -303,6 +313,10 @@ hr {
 .icon-link img{
   height: 150px;
   width: 150px;
+}
+
+.big-link {
+  font-size: 60px;
 }
 
 }
