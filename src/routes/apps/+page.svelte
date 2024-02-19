@@ -1,6 +1,6 @@
 <script>
 	import AppLink from '../components/AppLink.svelte';
-	import { apps } from '$lib/model/apps';
+	import { currentApps } from '$lib/model/apps';
 </script>
 
 <svelte:head>
@@ -9,7 +9,7 @@
 </svelte:head>
 
 <h1 class="left-h1">Apps</h1>
-{#each apps as app}
+{#each currentApps as app}
 	<AppLink imgSrc={app.appIcon} appName={app.name} pathComponent={`/apps/${app.path}`} ariaLabel={app.name}>{app.name}</AppLink>
   <br>
 {/each}

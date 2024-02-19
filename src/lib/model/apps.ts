@@ -21,3 +21,9 @@ export const apps = [
   new AppModel("Spiffy Clock", "spiffyclock", spiffyClockAppIcon),
   new AppModel("Contact Cards", "contactcards", contactCardsAppIcon)
 ]
+
+export const currentApps = [
+  new AppModel("Clock Suite", "clocksuite", clockSuiteAppIcon),
+  new AppModel("Filter Art", "filterart", filterArtAppIcon),
+  new AppModel("Spiffy Clock", "spiffyclock", spiffyClockAppIcon),
+]
