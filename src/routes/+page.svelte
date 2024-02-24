@@ -4,6 +4,7 @@
   import clockSuite from '$lib/images/ClockSuite.png'
   import FilertArtImages from './components/FilterArtImages.svelte'
   import SpiffyClockImages from './components/SpiffyClockImages.svelte'
+	import LearnFlexImages from './components/LearnFlexImages.svelte';
 </script>
 
 <svelte:head>
@@ -53,6 +54,18 @@
     <br/>
     <br/>
     <SpiffyClockImages/>
+</section>
+<br/>
+<hr>
+<br/>
+<section>
+  <div class="link-container">
+    <a href="/apps/learnflex" class="big-link">Learn Flex</a>
+    </div>
+    <h2 class="left-h2">Learn CSS Flexbox the easy way, or refresh your memory with this app as reference.</h2>
+    <br/>
+    <br/>
+    <LearnFlexImages/>
 </section>
 <br/>
 <br/>
