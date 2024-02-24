@@ -1,6 +1,7 @@
 <script>
 	import AppLink from '../components/AppLink.svelte';
 	import { apps } from '$lib/model/apps';
+  import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -10,7 +11,7 @@
 
 <h1 class="left-h1">Frequently Asked Questions</h1>
 {#each apps as app}
-	<AppLink imgSrc={app.appIcon} appName={app.name} pathComponent={"/faq/" + app.path} ariaLabel={`${app.name} FAQ`}>{`${app.name} FAQ`}</AppLink>
+	<AppLink imgSrc={app.appIcon} appName={app.name} pathComponent={`${base}/faq/` + app.path} ariaLabel={`${app.name} FAQ`}>{`${app.name} FAQ`}</AppLink>
   <br>
 {/each}
 <br />

@@ -5,6 +5,7 @@
   import FilertArtImages from './components/FilterArtImages.svelte'
   import SpiffyClockImages from './components/SpiffyClockImages.svelte'
 	import LearnFlexImages from './components/LearnFlexImages.svelte';
+  import { base } from '$app/paths';
 </script>
 
 <svelte:head>
@@ -24,7 +25,7 @@
 <br/>
 <section>
 <div class="link-container">
-<a href="/apps/clocksuite" class="big-link">Clock Suite</a>
+<a href="{base}/apps/clocksuite" class="big-link">Clock Suite</a>
 </div>
 <h2 class="left-h2">Colorful clock suite. Resizable clock, alarms, timers, a stopwatch, and a dock clock. Simple and elegant, with each functionality in its own window.</h2>
 <br/>
@@ -36,7 +37,7 @@
 <br/>
 <section>
   <div class="link-container">
-    <a href="/apps/filterart" class="big-link">Filter Art</a>
+    <a href="{base}/apps/filterart" class="big-link">Filter Art</a>
     </div>
     <h2 class="left-h2">Filter Art lets you add filters to your photos or images to get amazing results!</h2>
     <br/>
@@ -48,7 +49,7 @@
 <br/>
 <section>
   <div class="link-container">
-    <a href="/apps/spiffyclock" class="big-link">Spiffy Clock</a>
+    <a href="{base}/apps/spiffyclock" class="big-link">Spiffy Clock</a>
     </div>
     <h2 class="left-h2">A colorful and fun large-text clock, with many colors that change with dark mode and light mode, and choices for display of time, date, and day of the week.</h2>
     <br/>
@@ -60,7 +61,7 @@
 <br/>
 <section>
   <div class="link-container">
-    <a href="/apps/learnflex" class="big-link">Learn Flex</a>
+    <a href="{base}/apps/learnflex" class="big-link">Learn Flex</a>
     </div>
     <h2 class="left-h2">Learn CSS Flexbox the easy way, or refresh your memory with this app as reference.</h2>
     <br/>
