@@ -3,6 +3,8 @@ import filterArtAppIcon from '$lib/images/FilterArtAppIcon.png';
 import spiffyClockAppIcon from '$lib/images/SpiffyClockAppIcon.png';
 import learnFlexAppIcon from '$lib/images/LearnFlexAppIcon.png';
 import contactCardsAppIcon from '$lib/images/ContactCardsAppIcon.png';
+import celebrationLightsAppIcon from '$lib/images/CelebrationLightsAppIcon.png';
+
 
 class AppModel {
   name = ""
@@ -21,18 +23,20 @@ const filterArt = new AppModel("Filter Art", "filterart", filterArtAppIcon)
 const spiffyClock = new AppModel("Spiffy Clock", "spiffyclock", spiffyClockAppIcon)
 const learnFlex = new AppModel("Learn Flex", "learnflex", learnFlexAppIcon)
 const contactCards = new AppModel("Contact Cards", "contactcards", contactCardsAppIcon)
+const celebrationslights = new AppModel("Celebration Lights", "celebrationlights", celebrationLightsAppIcon)
 
 export const apps = [
   clockSuite,
   filterArt,
   spiffyClock,
+  celebrationslights,
   learnFlex,
-  contactCards
 ]
 
 export const currentApps = [
   clockSuite,
   filterArt,
   spiffyClock,
-  learnFlex,
+  celebrationslights,
+  learnFlex
 ]

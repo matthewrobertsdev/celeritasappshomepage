@@ -2,6 +2,7 @@
 	import { currentApps } from '$lib/model/apps';
 	import IconLink from './components/IconLink.svelte';
   import clockSuite from '$lib/images/ClockSuite.png'
+  import celebrationLights from '$lib/images/CelebrationLights.png'
   import FilertArtImages from './components/FilterArtImages.svelte'
   import SpiffyClockImages from './components/SpiffyClockImages.svelte'
 	import LearnFlexImages from './components/LearnFlexImages.svelte';
@@ -30,7 +31,7 @@
 <h2 class="left-h2">Colorful clock suite. Resizable clock, alarms, timers, a stopwatch, and a dock clock. Simple and elegant, with each functionality in its own window.</h2>
 <br/>
 <br/>
-<img src={clockSuite} class="mac-image">
+<img src={clockSuite} class="mac-image" alt="A clock, alarms, timers, and a stopwatch on a computer screen">
 </section>
 <br/>
 <hr>
@@ -61,6 +62,18 @@
 <br/>
 <section>
   <div class="link-container">
+    <a href="{base}/apps/celebrationlights" class="big-link">Celebration Lights</a>
+    </div>
+    <h2 class="left-h2">Decorate your screen with lights all-year round or for holidays!</h2>
+    <br/>
+    <br/>
+    <img src={celebrationLights} class="mac-image" alt="Rainbow colored lights around the edge of a computer screen.">
+</section>
+<br/>
+<hr>
+<br/>
+<section>
+  <div class="link-container">
     <a href="{base}/apps/learnflex" class="big-link">Learn Flex</a>
     </div>
     <h2 class="left-h2">Learn CSS Flexbox the easy way, or refresh your memory with this app as reference.</h2>
@@ -82,23 +95,4 @@
 		flex: 0.6;
 	}
 
-	h1 {
-		width: 100%;
-	}
-
-	.welcome {
-		display: block;
-		position: relative;
-		width: 100%;
-		height: 0;
-		padding: 0 0 calc(100% * 495 / 2048) 0;
-	}
-
-	.welcome img {
-		position: absolute;
-		width: 100%;
-		height: 100%;
-		top: 0;
-		display: block;
-	}
 </style>
