@@ -10,8 +10,8 @@
 </svelte:head>
 
 <AppHeading imgSrc={celebrationLightsAppIcon} ariaLabel="Celebration Lights">Celebration Lights</AppHeading>
-<h2 class="left-h2">Decorate your screen with lights all-year round or for holidays!</h2>
-<p class="body-p">Decorate your screen with colorful lights, both all-year round and with special themes for holidays!  Single color, custom color, multi-color, and holiday-themed colors are available, as well as various bulb shapes, on/off modes for the lights, various cord colors, float-on-top mode or not, and ways of showing and hiding different strands of lights.  Lights will appear on all your displays for your computer..</p>
+<h2 class="left-h2">Decorate your screen with lights all year round or for holidays!</h2>
+<p class="body-p">Decorate your screen with colorful lights, both all year round and with special themes for holidays!  Single color, custom color, multi-color, and holiday-themed colors are available, as well as various bulb shapes, on/off modes for the lights, various cord colors, float-on-top mode or not, and ways of showing and hiding different strands of lights.  Lights will appear on all your displays for your computer.</p>
 <img src={celebrationLights} class="mac-image" alt="Rainbow colored lights around the edge of a computer screen.">
 <h2 class="left-h2">Single colors:</h2>
   <ul class="feature-list">
