@@ -23,7 +23,7 @@ const filterArt = new AppModel("Filter Art", "filterart", filterArtAppIcon)
 const spiffyClock = new AppModel("Spiffy Clock", "spiffyclock", spiffyClockAppIcon)
 const learnFlex = new AppModel("Learn Flex", "learnflex", learnFlexAppIcon)
 const contactCards = new AppModel("Contact Cards", "contactcards", contactCardsAppIcon)
-const celebrationslights = new AppModel("Celebration Lights", "celebrationlights", celebrationLightsAppIcon)
+const celebrationslights = new AppModel("Light Joy", "lightjoy", celebrationLightsAppIcon)
 
 export const apps = [
   clockSuite,

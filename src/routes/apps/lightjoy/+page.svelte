@@ -5,13 +5,13 @@
 </script>
 
 <svelte:head>
-	<title>Celeritas Apps | Celebration Lights</title>
-	<meta name="description" content="Celebration Lights app homepage" />
+	<title>Celeritas Apps | Light Joy</title>
+	<meta name="description" content="Light Joy app homepage" />
 </svelte:head>
 
-<AppHeading imgSrc={celebrationLightsAppIcon} ariaLabel="Celebration Lights">Celebration Lights</AppHeading>
-<h2 class="left-h2">Decorate your screen with lights all year round or for holidays!</h2>
-<p class="body-p">Decorate your screen with colorful lights, both all year round and with special themes for holidays!  Single color, custom color, multi-color, and holiday-themed colors are available, as well as various bulb shapes, on/off modes for the lights, various cord colors, float-on-top mode or not, and ways of showing and hiding different strands of lights.  Lights will appear on all your displays for your computer.</p>
+<AppHeading imgSrc={celebrationLightsAppIcon} ariaLabel="Light Joy">Light Joy</AppHeading>
+<h2 class="left-h2">Decorate your screen with lights all year round or for holidays or special events!</h2>
+<p class="body-p">Decorate your screen with colorful lights, both all year round and with special themes for holidays and special events!  Single color, custom color, multi-color, and themed colors are available, as well as various bulb shapes, on/off modes for the lights, various cord colors, float-on-top mode or not, and ways of showing and hiding different strands of lights.  Lights will appear on all your displays for your computer.</p>
 <img src={celebrationLights} class="mac-image" alt="Rainbow colored lights around the edge of a computer screen.">
 <h2 class="left-h2">Single colors:</h2>
   <ul class="feature-list">
@@ -38,9 +38,15 @@
 <li>—Changing colors every second according to the rainbow</li>
 </ul>
 
-<h2 class="left-h2">Holiday-Themed Colors:</h2>
+<h2 class="left-h2">Themed Lights:</h2>
 <ul class="feature-list">
 <li>—Christmas</li>
+<li>—Christmas Mix</li>
+<li>—Ornaments Mix</li>
+<li>—Ice and Snow</li>
+<li>—New Year's</li>
+<li>—Milestone</li>
+<li>—Autumn</li>
 <li>—Halloween</li>
 <li>—Thanksgiving</li>
 <li>—Fourth of July</li>
@@ -48,13 +54,14 @@
 <li>—Earth Day</li>
 <li>—Valentine's Day</li>
 <li>—Kwanzaa</li>
-<li>—Ramdan</li>
+<li>—Ramadan</li>
 <li>—Diwali</li>
 <li>—Buddha Day</li>
 <li>—Cinco de Mayo</li>
 <li>—Saint Patrick's Day</li>
 <li>—Lunar New Year</li>
 <li>—Easter</li>
+<li>—Birthday</li>
 </ul>
 
 <h2 class="left-h2">Bulb Shapes:</h2>
@@ -66,6 +73,11 @@
 <li>—Stars</li>
 <li>—Moons</li>
 <li>—Moons and Stars</li>
+<li>—Ice and Snow</li>
+<li>—Bells</li>
+<li>—Holiday Variety</li>
+<li>—Baloons</li>
+<li>—Bursts</li>
 </ul>
 
 <h2 class="left-h2">Cord Colors:</h2>
@@ -96,8 +108,11 @@
 <li>—All Visible</li>
 <li>—Top Hidden</li>
 <li>—Bottom Hidden</li>
+<li>—Horizontals Hidden</li>
 <li>—Top and Bottom Hidden</li>
 <li>—Sides Hidden</li>
+<li>—Only Top Visible</li>
+<li>—Only Bottom Visible</li>
 </ul>
 
 <br />

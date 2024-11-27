@@ -4,7 +4,7 @@
 </svelte:head>
 
 <h1 class="left-h1">Reach out!</h1>
-<p class="body-p">Do you have a question or feedback about Clock Suite, Filter Art, Spiffy Clock, Learn Flex, or Celebration Lights? Please do not hesitate. Send the developer an email at:</p>
+<p class="body-p">Do you have a question or feedback about Clock Suite, Filter Art, Spiffy Clock, Learn Flex, or Light Joy? Please do not hesitate. Send the developer an email at:</p>
 <a class="indented link" href="mailto:matt.roberts.is@gmail.com">matt.roberts.is@gmail.com</a>
 <br>
 <br>
