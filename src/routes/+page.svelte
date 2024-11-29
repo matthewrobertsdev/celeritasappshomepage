@@ -2,7 +2,7 @@
 	import { currentApps } from '$lib/model/apps';
 	import IconLink from './components/IconLink.svelte';
   import clockSuite from '$lib/images/ClockSuite.png'
-  import celebrationLights from '$lib/images/CelebrationLights.png'
+  import celebrationLights from '$lib/images/LightJoy.png'
   import FilertArtImages from './components/FilterArtImages.svelte'
   import SpiffyClockImages from './components/SpiffyClockImages.svelte'
 	import LearnFlexImages from './components/LearnFlexImages.svelte';
@@ -62,9 +62,9 @@
 <br/>
 <section>
   <div class="link-container">
-    <a href="{base}/apps/celebrationlights" class="big-link">Celebration Lights</a>
+    <a href="{base}/apps/celebrationlights" class="big-link">Light Joy</a>
     </div>
-    <h2 class="left-h2">Decorate your screen with lights all-year round or for holidays!</h2>
+    <h2 class="left-h2">Decorate your screen with lights all-year round or for holidays or special occasions!</h2>
     <br/>
     <br/>
     <img src={celebrationLights} class="mac-image" alt="Rainbow colored lights around the edge of a computer screen.">
