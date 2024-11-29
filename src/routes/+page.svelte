@@ -62,7 +62,7 @@
 <br/>
 <section>
   <div class="link-container">
-    <a href="{base}/apps/celebrationlights" class="big-link">Light Joy</a>
+    <a href="{base}/apps/lightjoy" class="big-link">Light Joy</a>
     </div>
     <h2 class="left-h2">Decorate your screen with lights all-year round or for holidays or special occasions!</h2>
     <br/>
