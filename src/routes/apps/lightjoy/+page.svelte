@@ -1,7 +1,7 @@
 <script>
 	import AppHeading from '../../components/AppHeading.svelte';
   import celebrationLightsAppIcon from '$lib/images/CelebrationLightsAppIcon.png'
-  import celebrationLights from '$lib/images/CelebrationLights.png'
+  import celebrationLights from '$lib/images/LightJoy.png'
 </script>
 
 <svelte:head>
@@ -76,7 +76,7 @@
 <li>—Ice and Snow</li>
 <li>—Bells</li>
 <li>—Holiday Variety</li>
-<li>—Baloons</li>
+<li>—Balloons</li>
 <li>—Bursts</li>
 </ul>
 
@@ -108,7 +108,6 @@
 <li>—All Visible</li>
 <li>—Top Hidden</li>
 <li>—Bottom Hidden</li>
-<li>—Horizontals Hidden</li>
 <li>—Top and Bottom Hidden</li>
 <li>—Sides Hidden</li>
 <li>—Only Top Visible</li>
