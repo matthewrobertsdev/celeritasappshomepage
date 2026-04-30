@@ -9,7 +9,7 @@
 </svelte:head>
 
 <AppHeading imgSrc={spiffyClockAppIcon} ariaLabel="Spiffy Clock Privacy Policy">Spiffy Clock Privacy Policy</AppHeading>
-<p class="body-p">Spiffy Clock does not collect data from its users, and does not connect to the internet. Any changes to the privacy policy of Spiffy Clock will be reflected here.</p>
+<p class="body-p">Spiffy Clock does not collect data from its users.  It only connects to the internet when you make an in-app purchase or when it needs to verify an in-app purchase.  Any changes to the privacy policy of Spiffy Clock will be reflected here.</p>
 <br />
 <br />
 <br />
