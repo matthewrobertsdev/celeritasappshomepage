@@ -27,16 +27,12 @@ const celebrationslights = new AppModel("Light Joy", "lightjoy", celebrationLigh
 
 export const apps = [
   clockSuite,
-  filterArt,
   spiffyClock,
   celebrationslights,
-  learnFlex,
 ]
 
 export const currentApps = [
   clockSuite,
-  filterArt,
   spiffyClock,
   celebrationslights,
-  learnFlex
 ]
