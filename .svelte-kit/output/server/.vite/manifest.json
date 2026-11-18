@@ -1,0 +1,658 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "_AppHeading.js": {
+    "css": [
+      "_app/immutable/assets/styles.im-2kFgd.css"
+    ],
+    "file": "chunks/AppHeading.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_AppLink.js": {
+    "css": [
+      "_app/immutable/assets/styles.im-2kFgd.css"
+    ],
+    "file": "chunks/AppLink.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_CelebrationLightsAppIcon.js": {
+    "assets": [
+      "_app/immutable/assets/CelebrationLightsAppIcon.NaHGtxF_.png"
+    ],
+    "file": "chunks/CelebrationLightsAppIcon.js"
+  },
+  "_ClockSuite.js": {
+    "assets": [
+      "_app/immutable/assets/ClockSuite.nMtJRWer.png"
+    ],
+    "file": "chunks/ClockSuite.js"
+  },
+  "_ClockSuiteAppIconDark.js": {
+    "assets": [
+      "_app/immutable/assets/ClockSuiteAppIcon.8is5KPi5.png",
+      "_app/immutable/assets/ClockSuiteAppIconDark.jW8p5aPR.png"
+    ],
+    "file": "chunks/ClockSuiteAppIconDark.js"
+  },
+  "_ContactCardsAppIcon.js": {
+    "assets": [
+      "_app/immutable/assets/ContactCardsAppIcon.774SyiWs.png"
+    ],
+    "file": "chunks/ContactCardsAppIcon.js"
+  },
+  "_FilterArtAppIcon.js": {
+    "assets": [
+      "_app/immutable/assets/FilterArtAppIcon.SjOO9FeE.png"
+    ],
+    "file": "chunks/FilterArtAppIcon.js"
+  },
+  "_LearnFlexAppIcon.js": {
+    "assets": [
+      "_app/immutable/assets/LearnFlexAppIcon.S5auKTZt.png"
+    ],
+    "file": "chunks/LearnFlexAppIcon.js"
+  },
+  "_LightJoy.js": {
+    "assets": [
+      "_app/immutable/assets/LightJoy.Aqm-_H1K.png"
+    ],
+    "file": "chunks/LightJoy.js"
+  },
+  "_SpiffyClockAppIconDark.js": {
+    "assets": [
+      "_app/immutable/assets/SpiffyClockAppIcon.BIzyL5UK.png",
+      "_app/immutable/assets/SpiffyClockAppIconDark.EFUhvqWa.png"
+    ],
+    "file": "chunks/SpiffyClockAppIconDark.js"
+  },
+  "_SpiffyClockImages.js": {
+    "assets": [
+      "_app/immutable/assets/SpiffyClockGreenGradient.d8-t2z44.png",
+      "_app/immutable/assets/SpiffyClockDarkRed.na4Yt1It.png",
+      "_app/immutable/assets/SpiffyClockDarkPurple.WjGTtj1s.png"
+    ],
+    "file": "chunks/SpiffyClockImages.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_apps.js": {
+    "file": "chunks/apps.js",
+    "imports": [
+      "_ClockSuiteAppIconDark.js",
+      "_SpiffyClockAppIconDark.js",
+      "_CelebrationLightsAppIcon.js"
+    ]
+  },
+  "_exports.js": {
+    "file": "chunks/exports.js"
+  },
+  "_index.js": {
+    "file": "chunks/index.js",
+    "imports": [
+      "_prod-ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js",
+      "_paths.js"
+    ]
+  },
+  "_paths.js": {
+    "file": "chunks/paths.js"
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_styles.js": {
+    "file": "_app/immutable/assets/styles.im-2kFgd.css",
+    "src": "_styles.js"
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_prod-ssr.js",
+      "_paths.js",
+      "_exports.js",
+      "_ssr.js",
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/lib/images/CelebrationLightsAppIcon.png": {
+    "file": "_app/immutable/assets/CelebrationLightsAppIcon.NaHGtxF_.png",
+    "src": "src/lib/images/CelebrationLightsAppIcon.png"
+  },
+  "src/lib/images/ClockSuite.png": {
+    "file": "_app/immutable/assets/ClockSuite.nMtJRWer.png",
+    "src": "src/lib/images/ClockSuite.png"
+  },
+  "src/lib/images/ClockSuiteAppIcon.png": {
+    "file": "_app/immutable/assets/ClockSuiteAppIcon.8is5KPi5.png",
+    "src": "src/lib/images/ClockSuiteAppIcon.png"
+  },
+  "src/lib/images/ClockSuiteAppIconDark.png": {
+    "file": "_app/immutable/assets/ClockSuiteAppIconDark.jW8p5aPR.png",
+    "src": "src/lib/images/ClockSuiteAppIconDark.png"
+  },
+  "src/lib/images/ContactCardsAppIcon.png": {
+    "file": "_app/immutable/assets/ContactCardsAppIcon.774SyiWs.png",
+    "src": "src/lib/images/ContactCardsAppIcon.png"
+  },
+  "src/lib/images/FilterArtAppIcon.png": {
+    "file": "_app/immutable/assets/FilterArtAppIcon.SjOO9FeE.png",
+    "src": "src/lib/images/FilterArtAppIcon.png"
+  },
+  "src/lib/images/FilterArtFlowers.png": {
+    "file": "_app/immutable/assets/FilterArtFlowers.YWiVvljr.png",
+    "src": "src/lib/images/FilterArtFlowers.png"
+  },
+  "src/lib/images/FilterArtPlayground.png": {
+    "file": "_app/immutable/assets/FilterArtPlayground.UbNaju27.png",
+    "src": "src/lib/images/FilterArtPlayground.png"
+  },
+  "src/lib/images/FilterArtVenice.png": {
+    "file": "_app/immutable/assets/FilterArtVenice.C--V4vbF.png",
+    "src": "src/lib/images/FilterArtVenice.png"
+  },
+  "src/lib/images/LearnFlexAppIcon.png": {
+    "file": "_app/immutable/assets/LearnFlexAppIcon.S5auKTZt.png",
+    "src": "src/lib/images/LearnFlexAppIcon.png"
+  },
+  "src/lib/images/LearnFlexContainer.png": {
+    "file": "_app/immutable/assets/LearnFlexContainer.g0G9KzcI.png",
+    "src": "src/lib/images/LearnFlexContainer.png"
+  },
+  "src/lib/images/LearnFlexContainerProperties.png": {
+    "file": "_app/immutable/assets/LearnFlexContainerProperties.owjxgzn-.png",
+    "src": "src/lib/images/LearnFlexContainerProperties.png"
+  },
+  "src/lib/images/LearnFlexItems.png": {
+    "file": "_app/immutable/assets/LearnFlexItems.NqrJQqr6.png",
+    "src": "src/lib/images/LearnFlexItems.png"
+  },
+  "src/lib/images/LightJoy.png": {
+    "file": "_app/immutable/assets/LightJoy.Aqm-_H1K.png",
+    "src": "src/lib/images/LightJoy.png"
+  },
+  "src/lib/images/SpiffyClockAppIcon.png": {
+    "file": "_app/immutable/assets/SpiffyClockAppIcon.BIzyL5UK.png",
+    "src": "src/lib/images/SpiffyClockAppIcon.png"
+  },
+  "src/lib/images/SpiffyClockAppIconDark.png": {
+    "file": "_app/immutable/assets/SpiffyClockAppIconDark.EFUhvqWa.png",
+    "src": "src/lib/images/SpiffyClockAppIconDark.png"
+  },
+  "src/lib/images/SpiffyClockDarkPurple.png": {
+    "file": "_app/immutable/assets/SpiffyClockDarkPurple.WjGTtj1s.png",
+    "src": "src/lib/images/SpiffyClockDarkPurple.png"
+  },
+  "src/lib/images/SpiffyClockDarkRed.png": {
+    "file": "_app/immutable/assets/SpiffyClockDarkRed.na4Yt1It.png",
+    "src": "src/lib/images/SpiffyClockDarkRed.png"
+  },
+  "src/lib/images/SpiffyClockGreenGradient.png": {
+    "file": "_app/immutable/assets/SpiffyClockGreenGradient.d8-t2z44.png",
+    "src": "src/lib/images/SpiffyClockGreenGradient.png"
+  },
+  "src/lib/images/celeritas-apps.png": {
+    "file": "_app/immutable/assets/celeritas-apps.m44KytbC.png",
+    "src": "src/lib/images/celeritas-apps.png"
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+error.svelte"
+  },
+  "src/routes/+layout.svelte": {
+    "assets": [
+      "_app/immutable/assets/celeritas-apps.m44KytbC.png"
+    ],
+    "css": [
+      "_app/immutable/assets/_layout.ICa-vXJ8.css",
+      "_app/immutable/assets/styles.im-2kFgd.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_exports.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "css": [
+      "_app/immutable/assets/_page.qn3wQUKj.css",
+      "_app/immutable/assets/styles.im-2kFgd.css"
+    ],
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_apps.js",
+      "_ClockSuite.js",
+      "_LightJoy.js",
+      "_SpiffyClockImages.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/+page.ts": {
+    "file": "entries/pages/_page.ts.js",
+    "isEntry": true,
+    "src": "src/routes/+page.ts"
+  },
+  "src/routes/apps/+page.svelte": {
+    "file": "entries/pages/apps/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppLink.js",
+      "_apps.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/+page.svelte"
+  },
+  "src/routes/apps/+page.ts": {
+    "file": "entries/pages/apps/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/+page.ts"
+  },
+  "src/routes/apps/clocksuite/+page.svelte": {
+    "file": "entries/pages/apps/clocksuite/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_ClockSuiteAppIconDark.js",
+      "_ClockSuite.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/clocksuite/+page.svelte"
+  },
+  "src/routes/apps/clocksuite/+page.ts": {
+    "file": "entries/pages/apps/clocksuite/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/clocksuite/+page.ts"
+  },
+  "src/routes/apps/filterart/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/FilterArtPlayground.UbNaju27.png",
+      "_app/immutable/assets/FilterArtVenice.C--V4vbF.png",
+      "_app/immutable/assets/FilterArtFlowers.YWiVvljr.png"
+    ],
+    "file": "entries/pages/apps/filterart/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_FilterArtAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/filterart/+page.svelte"
+  },
+  "src/routes/apps/filterart/+page.ts": {
+    "file": "entries/pages/apps/filterart/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/filterart/+page.ts"
+  },
+  "src/routes/apps/learnflex/+page.svelte": {
+    "assets": [
+      "_app/immutable/assets/LearnFlexContainer.g0G9KzcI.png",
+      "_app/immutable/assets/LearnFlexContainerProperties.owjxgzn-.png",
+      "_app/immutable/assets/LearnFlexItems.NqrJQqr6.png"
+    ],
+    "file": "entries/pages/apps/learnflex/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_LearnFlexAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/learnflex/+page.svelte"
+  },
+  "src/routes/apps/learnflex/+page.ts": {
+    "file": "entries/pages/apps/learnflex/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/learnflex/+page.ts"
+  },
+  "src/routes/apps/lightjoy/+page.svelte": {
+    "file": "entries/pages/apps/lightjoy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_CelebrationLightsAppIcon.js",
+      "_LightJoy.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/lightjoy/+page.svelte"
+  },
+  "src/routes/apps/lightjoy/+page.ts": {
+    "file": "entries/pages/apps/lightjoy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/lightjoy/+page.ts"
+  },
+  "src/routes/apps/spiffyclock/+page.svelte": {
+    "file": "entries/pages/apps/spiffyclock/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_SpiffyClockAppIconDark.js",
+      "_SpiffyClockImages.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/spiffyclock/+page.svelte"
+  },
+  "src/routes/apps/spiffyclock/+page.ts": {
+    "file": "entries/pages/apps/spiffyclock/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/apps/spiffyclock/+page.ts"
+  },
+  "src/routes/contact/+page.svelte": {
+    "file": "entries/pages/contact/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/contact/+page.svelte"
+  },
+  "src/routes/contact/+page.ts": {
+    "file": "entries/pages/contact/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/contact/+page.ts"
+  },
+  "src/routes/faq/+page.svelte": {
+    "file": "entries/pages/faq/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppLink.js",
+      "_apps.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/+page.svelte"
+  },
+  "src/routes/faq/+page.ts": {
+    "file": "entries/pages/faq/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/+page.ts"
+  },
+  "src/routes/faq/clocksuite/+page.svelte": {
+    "file": "entries/pages/faq/clocksuite/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_ClockSuiteAppIconDark.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/clocksuite/+page.svelte"
+  },
+  "src/routes/faq/clocksuite/+page.ts": {
+    "file": "entries/pages/faq/clocksuite/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/clocksuite/+page.ts"
+  },
+  "src/routes/faq/contactcards/+page.svelte": {
+    "file": "entries/pages/faq/contactcards/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_ContactCardsAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/contactcards/+page.svelte"
+  },
+  "src/routes/faq/contactcards/+page.ts": {
+    "file": "entries/pages/faq/contactcards/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/contactcards/+page.ts"
+  },
+  "src/routes/faq/filterart/+page.svelte": {
+    "file": "entries/pages/faq/filterart/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_FilterArtAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/filterart/+page.svelte"
+  },
+  "src/routes/faq/filterart/+page.ts": {
+    "file": "entries/pages/faq/filterart/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/filterart/+page.ts"
+  },
+  "src/routes/faq/learnflex/+page.svelte": {
+    "file": "entries/pages/faq/learnflex/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_LearnFlexAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/learnflex/+page.svelte"
+  },
+  "src/routes/faq/learnflex/+page.ts": {
+    "file": "entries/pages/faq/learnflex/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/learnflex/+page.ts"
+  },
+  "src/routes/faq/lightjoy/+page.svelte": {
+    "file": "entries/pages/faq/lightjoy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_CelebrationLightsAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/lightjoy/+page.svelte"
+  },
+  "src/routes/faq/lightjoy/+page.ts": {
+    "file": "entries/pages/faq/lightjoy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/lightjoy/+page.ts"
+  },
+  "src/routes/faq/spiffyclock/+page.svelte": {
+    "file": "entries/pages/faq/spiffyclock/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_SpiffyClockAppIconDark.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/spiffyclock/+page.svelte"
+  },
+  "src/routes/faq/spiffyclock/+page.ts": {
+    "file": "entries/pages/faq/spiffyclock/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/faq/spiffyclock/+page.ts"
+  },
+  "src/routes/privacy/+page.svelte": {
+    "file": "entries/pages/privacy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppLink.js",
+      "_apps.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/+page.svelte"
+  },
+  "src/routes/privacy/+page.ts": {
+    "file": "entries/pages/privacy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/+page.ts"
+  },
+  "src/routes/privacy/clocksuite/+page.svelte": {
+    "file": "entries/pages/privacy/clocksuite/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_ClockSuiteAppIconDark.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/clocksuite/+page.svelte"
+  },
+  "src/routes/privacy/clocksuite/+page.ts": {
+    "file": "entries/pages/privacy/clocksuite/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/clocksuite/+page.ts"
+  },
+  "src/routes/privacy/contactcards/+page.svelte": {
+    "file": "entries/pages/privacy/contactcards/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_ContactCardsAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/contactcards/+page.svelte"
+  },
+  "src/routes/privacy/contactcards/+page.ts": {
+    "file": "entries/pages/privacy/contactcards/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/contactcards/+page.ts"
+  },
+  "src/routes/privacy/filterart/+page.svelte": {
+    "file": "entries/pages/privacy/filterart/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_FilterArtAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/filterart/+page.svelte"
+  },
+  "src/routes/privacy/filterart/+page.ts": {
+    "file": "entries/pages/privacy/filterart/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/filterart/+page.ts"
+  },
+  "src/routes/privacy/learnflex/+page.svelte": {
+    "file": "entries/pages/privacy/learnflex/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_LearnFlexAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/learnflex/+page.svelte"
+  },
+  "src/routes/privacy/learnflex/+page.ts": {
+    "file": "entries/pages/privacy/learnflex/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/learnflex/+page.ts"
+  },
+  "src/routes/privacy/lightjoy/+page.svelte": {
+    "file": "entries/pages/privacy/lightjoy/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_CelebrationLightsAppIcon.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/lightjoy/+page.svelte"
+  },
+  "src/routes/privacy/lightjoy/+page.ts": {
+    "file": "entries/pages/privacy/lightjoy/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/lightjoy/+page.ts"
+  },
+  "src/routes/privacy/spiffyclock/+page.svelte": {
+    "file": "entries/pages/privacy/spiffyclock/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_AppHeading.js",
+      "_SpiffyClockAppIconDark.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/spiffyclock/+page.svelte"
+  },
+  "src/routes/privacy/spiffyclock/+page.ts": {
+    "file": "entries/pages/privacy/spiffyclock/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/spiffyclock/+page.ts"
+  }
+}

@@ -1,0 +1,68 @@
+{
+	"/": [
+		"src/routes/+page.ts"
+	],
+	"/apps": [
+		"src/routes/apps/+page.ts"
+	],
+	"/apps/clocksuite": [
+		"src/routes/apps/clocksuite/+page.ts"
+	],
+	"/apps/filterart": [
+		"src/routes/apps/filterart/+page.ts"
+	],
+	"/apps/learnflex": [
+		"src/routes/apps/learnflex/+page.ts"
+	],
+	"/apps/lightjoy": [
+		"src/routes/apps/lightjoy/+page.ts"
+	],
+	"/apps/spiffyclock": [
+		"src/routes/apps/spiffyclock/+page.ts"
+	],
+	"/contact": [
+		"src/routes/contact/+page.ts"
+	],
+	"/faq": [
+		"src/routes/faq/+page.ts"
+	],
+	"/faq/clocksuite": [
+		"src/routes/faq/clocksuite/+page.ts"
+	],
+	"/faq/contactcards": [
+		"src/routes/faq/contactcards/+page.ts"
+	],
+	"/faq/filterart": [
+		"src/routes/faq/filterart/+page.ts"
+	],
+	"/faq/learnflex": [
+		"src/routes/faq/learnflex/+page.ts"
+	],
+	"/faq/lightjoy": [
+		"src/routes/faq/lightjoy/+page.ts"
+	],
+	"/faq/spiffyclock": [
+		"src/routes/faq/spiffyclock/+page.ts"
+	],
+	"/privacy": [
+		"src/routes/privacy/+page.ts"
+	],
+	"/privacy/clocksuite": [
+		"src/routes/privacy/clocksuite/+page.ts"
+	],
+	"/privacy/contactcards": [
+		"src/routes/privacy/contactcards/+page.ts"
+	],
+	"/privacy/filterart": [
+		"src/routes/privacy/filterart/+page.ts"
+	],
+	"/privacy/learnflex": [
+		"src/routes/privacy/learnflex/+page.ts"
+	],
+	"/privacy/lightjoy": [
+		"src/routes/privacy/lightjoy/+page.ts"
+	],
+	"/privacy/spiffyclock": [
+		"src/routes/privacy/spiffyclock/+page.ts"
+	]
+}
