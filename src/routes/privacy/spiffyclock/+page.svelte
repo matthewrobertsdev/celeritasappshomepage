@@ -1,6 +1,7 @@
 <script>
 	import AppHeading from '../../components/AppHeading.svelte';
   import spiffyClockAppIcon from '$lib/images/SpiffyClockAppIcon.png'
+  import spiffyClockAppIconDark from '$lib/images/SpiffyClockAppIconDark.png'
 </script>
 
 <svelte:head>
@@ -8,7 +9,7 @@
 	<meta name="description" content="Spiffy Clock privacy policy" />
 </svelte:head>
 
-<AppHeading imgSrc={spiffyClockAppIcon} ariaLabel="Spiffy Clock Privacy Policy">Spiffy Clock Privacy Policy</AppHeading>
+<AppHeading imgSrc={spiffyClockAppIcon} imgSrcDark={spiffyClockAppIconDark} ariaLabel="Spiffy Clock Privacy Policy">Spiffy Clock Privacy Policy</AppHeading>
 <p class="body-p">Spiffy Clock does not collect data from its users.  It only connects to the internet when you make an in-app purchase or when it needs to verify an in-app purchase.  Any changes to the privacy policy of Spiffy Clock will be reflected here.</p>
 <br />
 <br />

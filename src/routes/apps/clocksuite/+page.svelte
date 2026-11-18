@@ -1,6 +1,7 @@
 <script>
 	import AppHeading from '../../components/AppHeading.svelte';
   import clockSuiteAppIcon from '$lib/images/ClockSuiteAppIcon.png'
+  import clockSuiteAppIconDark from '$lib/images/ClockSuiteAppIconDark.png'
   import clockSuite from '$lib/images/ClockSuite.png'
 </script>
 
@@ -9,7 +10,7 @@
 	<meta name="description" content="Clock Suite app homepage" />
 </svelte:head>
 
-<AppHeading imgSrc={clockSuiteAppIcon} ariaLabel="Clock Suite">Clock Suite</AppHeading>
+<AppHeading imgSrc={clockSuiteAppIcon} imgSrcDark={clockSuiteAppIconDark} ariaLabel="Clock Suite">Clock Suite</AppHeading>
 <h2 class="left-h2">Colorful clock suite.  Resizable clock, alarms, timers, a stopwatch, and a dock clock. Simple and elegant, with each functionality in its own window.</h2>
 <p class="body-p">A great clock suite—a resizable digital or analog clock, alarms, timers, a stopwatch, and a dock clock. All in brilliant color, that works in dark mode and light mode with many color choices, and with a night mode choice for while in dark mode. Choose from songs you own or from built-in alerts for sounds when your alarms and timers go off. Clock and Dock Clock can be digital or analog.</p>
 <img src={clockSuite} class="mac-image" alt="Clock Suite with digital clock window, timer window, alarm window and stopwatch window with dark-mode blue background for windows.">
@@ -25,11 +26,9 @@
 
 <h2 class="left-h2">Colors</h2>
 <ul class="feature-list">
-<li>—Comes with 13 built-in colors and a choice to choose a custom color, all available with dark and light mode versions. Colors are a system dark or light color, black, gray, white, red, orange, yellow, green, blue, indigo, purple, pink, brown, or a custom color.</li>
+<li>—Comes with 30 free color themes, with dark and light mode versions. Free colors are a system dark or light color, black, gray, white, red, orange, yellow, green, mint, teal, cyan, blue, purple, pink, or brown, either as the foreground or the background.  One small pro in-app purchase gets you custom colors, many gradients, translucent background, rainbow, gold, silver, and bronze, and many themes in which both the text and background are colorful.</li>
 <li>—Works in system-wide dark mode and light mode. The app’s colors will automatically change when dark mode or light mode changes.</li>
 <li>—Unified colors for the entire app with a single click.</li>
-<li>—Color choice can be the background color or the foreground color.</li>
-<li>—When the color choice is the foreground, background can be dark gray or the active window can be translucent. This can be set in preferences.  Windows are translucent only when they are the active window (such as when they are the last window you clicked on).</li>
 </ul>
 
 <h2 class="left-h2">Gradients</h2>

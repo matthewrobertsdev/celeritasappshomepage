@@ -15,7 +15,7 @@
 <section>
 	<div class="icon-container">
 		{#each currentApps as app}
-			<IconLink imgSrc={app.appIcon} pathComponent={`${base}/apps/${app.path}`} ariaLabel={app.name}>{app.name}</IconLink>
+			<IconLink imgSrc={app.appIcon} imgSrcDark={app.darkModeAppIcon} pathComponent={`${base}/apps/${app.path}`} ariaLabel={app.name}>{app.name}</IconLink>
 		{/each}
 	</div>
 </section>

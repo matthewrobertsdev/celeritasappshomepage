@@ -13,7 +13,7 @@
 	</main>
 
 	<footer>
-		<p>Copyright © 2020-2024 Matt Roberts</p>
+		<p>Copyright © 2020-2026 Matt Roberts</p>
 	</footer>
 </div>
 

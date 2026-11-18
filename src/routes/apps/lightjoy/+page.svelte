@@ -9,7 +9,7 @@
 	<meta name="description" content="Light Joy app homepage" />
 </svelte:head>
 
-<AppHeading imgSrc={celebrationLightsAppIcon} ariaLabel="Light Joy">Light Joy</AppHeading>
+<AppHeading imgSrc={celebrationLightsAppIcon} imgSrcDark={celebrationLightsAppIcon} ariaLabel="Light Joy">Light Joy</AppHeading>
 <h2 class="left-h2">
 	Decorate your screen with lights all year round or for holidays or special occasions!
 </h2>

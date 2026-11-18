@@ -1,6 +1,7 @@
 <script>
 	import AppHeading from '../../components/AppHeading.svelte';
   import spiffyClockAppIcon from '$lib/images/SpiffyClockAppIcon.png'
+  import spiffyClockAppIconDark from '$lib/images/SpiffyClockAppIconDark.png'
   import SpiffyClockImages from '../../components/SpiffyClockImages.svelte';
 </script>
 
@@ -9,17 +10,20 @@
 	<meta name="description" content="Filter Art app homepage" />
 </svelte:head>
 
-<AppHeading imgSrc={spiffyClockAppIcon} ariaLabel="Spiffy Clock">Spiffy Clock</AppHeading>
+<AppHeading imgSrc={spiffyClockAppIcon} imgSrcDark={spiffyClockAppIconDark} ariaLabel="Spiffy Clock">Spiffy Clock</AppHeading>
 <h2 class="left-h2">A colorful and fun large-text clock, with many colors that change with dark mode and light mode, and choices for display of time, date, and day of the week.</h2>
-<p class="body-p">Spiffy Clock puts the time and date front and center!  It has 13 built-in colors that can be displayed as the background or as the text.  Choose from numerous settings exactly how you want the time and date and day of the week displayed.  When the color choice is for the background, the color will automatically change for light mode and dark mode (provided your iOS version supports system-wide dark mode).  Works in both portrait and landscape mode.</p>
+<p class="body-p">Spiffy Clock puts the time and date front and center!  It has 16 free colors that can be displayed as the background or as the text.  An in-app purchase unlocks gradient backgrounds, gradient text, custom background and text colors, bi-color themes, gold, silver, and bronze, and rainbow coloring.  Choose from numerous settings exactly how you want the time and date and day of the week displayed.  When the color choice is for the background, the color will automatically change for light mode and dark mode, except when using custom colors.  Works in both portrait and landscape mode.</p>
 <SpiffyClockImages/>
 <p class="body-p">A useful night mode for use with dark mode allows you to display dark text in dark mode.</p>
-<h2 class="left-h2">Color Choices</h2>
+<h2 class="left-h2">Free color choices are:</h2>
   <ul class="feature-list">
   <li>—Red</li>
   <li>—Orange</li>
   <li>—Yellow</li>
   <li>—Green</li>
+  <li>—Mint</li>
+  <li>—Cyan</li>
+  <li>—Teal</li>
   <li>—Blue</li>
   <li>—Indigo</li>
   <li>—Purple</li>
@@ -29,13 +33,23 @@
   <li>—White</li>
   <li>—System</li>
 </ul>
+<h2 class="left-h2">Paid color choices are:</h2>
+  <ul class="feature-list">
+  <li>—Gradients</li>
+  <li>—Gold</li>
+  <li>—Silver</li>
+  <li>—Bronze</li>
+  <li>—Bi-color themes</li>
+  <li>—Custom colors</li>
+</ul>
 <p class="body-p">You can choose to display the background as a color gradient.</p>
 <h2 class="left-h2">Time and Date Settings</h2>
   <ul class="feature-list">
+  <li>—Analog or digital clock</li>
   <li>—Show/hide seconds</li>
   <li>—Use 24 hour/12 hour time</li>
-  <li>—Show date</li>
-  <li>—Show day of the week</li>
+  <li>—Show/hide date</li>
+  <li>—Show/hide day of the week</li>
   <li>—Use numerical date</li>
 </ul>
 <p class="body-p">You can also hide the status bar if you want.
